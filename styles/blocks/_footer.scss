@@ -1,0 +1,109 @@
+.footer {
+    background-color: var(--color-dark-blue);
+
+    &__logo {
+        @include tablet {
+            max-width: 140px;
+        }
+    }
+
+    &__content {
+        font-family: var(--font-family-title);
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+        padding: 35px 70px;
+        gap: 50px;
+
+        @include desktop {
+            gap: 15px;
+        }
+
+        @include tablet {
+            padding: 30px 20px;
+        }
+
+        @include mobile {
+            padding: 50px 40px;
+            gap: 35px
+        }
+
+        @include mobile {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        &-list {
+            display: flex;
+            column-gap: 35px;
+            margin-right: auto;
+            flex-direction: row;
+            align-items: center;
+
+            @include desktop {
+                column-gap: 10px;
+            }
+
+            @include mobile {
+                margin-right: 0;
+                flex-direction: column;
+                gap: 35px;
+            }
+        }
+
+        &-link {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.5px;
+
+            @include tablet {
+                font-size: 16px;
+            }
+
+            @include hover {
+                color: var(--color-gray);
+            }
+        }
+
+        &-social {
+            &-list {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 22px;
+
+                @include desktop {
+                    gap: 10px;
+                }
+
+                @include mobile {
+                    gap: 40px;
+                }
+            }
+
+            &-item {
+                align-items: center;
+                display: flex;
+            }
+        }
+
+        &-copyright {
+            display: flex;
+            align-items: center;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0.5px;
+
+            @include tablet {
+                font-size: 16px;
+            }
+        }
+    }
+}
