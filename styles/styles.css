@@ -373,7 +373,7 @@ svg * {
   align-items: flex-start;
   height: 100vh;
   min-height: 920px;
-  background-image: url("./images/section-1.png");
+  background-image: url("../images/section-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -757,7 +757,7 @@ svg * {
 }
 
 .excursion {
-  background-image: url("./images/excursion_bgc.png");
+  background-image: url("../images/excursion_bgc.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -848,7 +848,7 @@ svg * {
 }
 
 .secrets {
-  background-image: url("./images/secrets_background.png");
+  background-image: url("../images/secrets_background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1089,7 +1089,7 @@ svg * {
 }
 
 .seen {
-  background-image: url("./images/white_bg.png");
+  background-image: url("../images/white_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
