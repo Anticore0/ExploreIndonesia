@@ -1,21 +1,24 @@
 # Explore Indonesia
+Explore Indonesia is a professional, modern, and visually engaging website designed  It serves as an inspiring platform for visitors to explore destinations, learn about unique cultural experiences, and plan their dream adventures.
 
-This is a learning project created entirely by me for practicing and enhancing web development skills. The site was built using modern tools and technologies
+## Key Features:
 
-## Description
+- Interactive Design: Engaging user interface with smooth animations and a seamless browsing experience.
 
-This project is a static website designed to improve my frontend development skills. It includes a modern HTML structure, SCSS styling, and JavaScript. 
+- Dynamic Content: Implemented carousels and sliders for showcasing destinations, activities, and testimonials.
 
-## Technologies Used:
+- Fully Responsive: Optimized for various devices, ensuring a flawless experience on desktops, tablets, and mobile phones.
 
-HTML – site structure.
+## Technologies and Tools Used:
 
-SCSS – styling of the page.
+- HTML: Semantic structure for accessibility and SEO.
 
-JavaScript - For adding interactivity and dynamic features.
+- SCSS: Modern and maintainable styling.
 
-Splide – slider for carousels and content.
+- JavaScript: Dynamic interactivity and engagement.
 
-## Accessibility:
+- Splide: Carousel library for showcasing content.
 
-The site is available at: https://anticore0.github.io/ExploreIndonesia/
+## Live Preview
+
+Live Demo: https://anticore0.github.io/ExploreIndonesia
